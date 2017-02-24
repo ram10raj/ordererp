@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 Sundial. All rights reserved.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+		<add id="Sundial_ERP::erp_configuration" title="ERP Order Status" translate="title" module="Sundial_ERP" sortOrder="15" parent="Magento_Reports::report_salesroot" action="erp/order/report" resource="Magento_Reports::erp_configuration"/>
+    </menu>
+</config>
